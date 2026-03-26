@@ -6,20 +6,20 @@ class Cxpak < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.0.1/cxpak-aarch64-apple-darwin.tar.gz"
-      sha256 "9d4146b73ec53a988751de9ccf3431b1d7bbd7e7e95c4d13e48ec9d9433c6999"
+      sha256 "4330414f8b2742df98d276d0b55d12fed4e13e27588ee2eb37f03f9e4dd2bdda"
     else
       url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.0.1/cxpak-x86_64-apple-darwin.tar.gz"
-      sha256 "09fc76191a99c562f3360178db8b613c9bb7e155d85e8bfe4a40bafc88e7eb8b"
+      sha256 "c1a90fd3858ccd57260bfaf5c57242d66442bd1781b1a3ea380f1b72f1745530"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.0.1/cxpak-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2d6802a6d317d2c9b93e7bbb5e4b139ddd32cd18c15d0b1cde17f7b87b968970"
+      sha256 "5354f407223236bac842092ecdce492b581f10250106bcd719a83fc4b4c2890d"
     else
       url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.0.1/cxpak-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4333e7b766505134efb840566d55257105cfb1dfe0808864cbd47d6b11735d07"
+      sha256 "a6202ff4d20a237c09744ae6e9f6167c499c28a0efc9cf8c49cb9ac7b7ebd278"
     end
   end
 
