@@ -1,25 +1,25 @@
 class Cxpak < Formula
   desc "Token-budgeted codebase context for LLMs"
   homepage "https://github.com/Barnett-Studios/cxpak"
-  version "1.2.0"
+  version "1.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.2.0/cxpak-aarch64-apple-darwin.tar.gz"
-      sha256 "a4dbdf36036266ec65fb6fa57b62bbba45c65bb6b9e4f7fd110447306e031be9"
+      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.3.0/cxpak-aarch64-apple-darwin.tar.gz"
+      sha256 "6a6687b5b16a385715745599a5f047d4dc31e06c9e7d17d3660a43e34a311ad8"
     else
-      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.2.0/cxpak-x86_64-apple-darwin.tar.gz"
-      sha256 "0d1d2e24602e2743690a28454f0ca63e51d105613303273de26bcad3495b832d"
+      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.3.0/cxpak-x86_64-apple-darwin.tar.gz"
+      sha256 "86e83b0df3bf4ee9baf132df1a2bd2b9e91fc6f642546701dc10c8f90e871d76"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.2.0/cxpak-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d8df23dd0e727dd9e5994920ca5442cb2f70d01208cef5e8fa8642293c4cc88b"
+      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.3.0/cxpak-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a7d890c9d33730263267c6f22e84f82376215195a14cec9ff5222855846d9872"
     else
-      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.2.0/cxpak-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f76048a00d4149e1aaf9b2729a4e89cdf5af2f8153b7b61cf89a1f491a1be60a"
+      url "https://github.com/Barnett-Studios/cxpak/releases/download/v1.3.0/cxpak-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8b27f556f7238f2cb5f3e109c9820fe0ffda360c653cd93f6ca5816a7f5e56ef"
     end
   end
 
