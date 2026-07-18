@@ -1,25 +1,25 @@
 class Abproof < Formula
   desc "Offline A/B change-validation harness for coding agents"
   homepage "https://github.com/Barnett-Studios/abproof"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.1/abproof-aarch64-apple-darwin.tar.gz"
-      sha256 "c3e9db6891c7856eb6d30db0b331ecd444c21f0c0fb9f834a0f66b3a1e8b56c6"
+      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.2/abproof-aarch64-apple-darwin.tar.gz"
+      sha256 "211b6d272ed76019fafc7d8e4b461ec2007ec3221eb94452ead2836dbc0c21f3"
     else
-      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.1/abproof-x86_64-apple-darwin.tar.gz"
-      sha256 "8a89b119ff894c7c90fb33254a2c5c09c4e221db1ae36f8925a14132465e2d94"
+      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.2/abproof-x86_64-apple-darwin.tar.gz"
+      sha256 "3bf13dd077e4c274d830a56db922fa77cf91bf6da955eda6d3c2084c6099bcf7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.1/abproof-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9b6a30effafc1475d0446788a78e49a62bcc2f2e3ec5e9b881d8db2a325c23a3"
+      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.2/abproof-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "66a5bef0f434b63d6e689fe0639d99edac62f79ff55b9fb545e96c7cfaf551b4"
     else
-      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.1/abproof-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b254bd9e689bde379b382c79738153aa8d60b63eb7dae115e2a5fd8426ecb3ab"
+      url "https://github.com/Barnett-Studios/abproof/releases/download/v0.1.2/abproof-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ffdbda2a4466c6d199159108fefc6ef730b0c6725c9a395406e7219fbc44829a"
     end
   end
 
