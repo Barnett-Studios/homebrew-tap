@@ -6,20 +6,20 @@ class Commitward < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.0/commitward-aarch64-apple-darwin.tar.gz"
-      sha256 "30206997d4c37e5f0b5799f4002f34f320c6b04def94f8379ad2793def3b3e02"
+      sha256 "184ab8f441af3066e9afae7a682ede3a99899d1204a425515beeee2fc73ea250"
     else
       url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.0/commitward-x86_64-apple-darwin.tar.gz"
-      sha256 "60d28ea8824331e716648412852dfbfc9537edc403c8859a8f0e4aaba92c2dd3"
+      sha256 "51d3964448f265b83d4eb83cc4729e05ec160bf85600d221b4d74f3a1ed5f539"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.0/commitward-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b204313524e97ebe34b6b6ffeb2dc4bd0ed545979d62b9eeeeeb6ebae6bc5b3d"
+      sha256 "0710ceaf6980af62925fc61e7a1e514e367ad39cea21b89575cb12e3595e5b7c"
     else
       url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.0/commitward-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "abbcde5c58f16636cecd1bfff9048d73cdb130cb3b937eb8cae1cf56ddd5719b"
+      sha256 "b6ac38dd9b4177a88983216eb581603cb0de1e3250c3ca0178e55c262df68994"
     end
   end
 
