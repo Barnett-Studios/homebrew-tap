@@ -1,25 +1,25 @@
 class Commitward < Formula
   desc "Deterministic, fail-open HITL gate for high-stakes agentic commits"
   homepage "https://github.com/Barnett-Studios/commitward"
-  version "0.2.2"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.2/commitward-aarch64-apple-darwin.tar.gz"
-      sha256 "64f18820b6190fecd1b2218cd163d149e59f9b6e37d53673a28b0b37212ce17e"
+      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.3.0/commitward-aarch64-apple-darwin.tar.gz"
+      sha256 "1f8957b6b8bf724d4ad672c069b194644bbce9d195db710267385fc6a45b2f48"
     else
-      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.2/commitward-x86_64-apple-darwin.tar.gz"
-      sha256 "5d6078d328f136664f73d039aaffc068d3c4d331bf2f3e5f954de1aa11159a69"
+      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.3.0/commitward-x86_64-apple-darwin.tar.gz"
+      sha256 "0a6ecbc47aa0845fa4e160f66825c112fa71a51a790aa8d5bf3871aba74fc914"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.2/commitward-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6628febc2c8fbbd66e58f2a1f1935a84c369b08ea7e6b527002e78e6b5a0e44b"
+      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.3.0/commitward-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6267ddd0b7803d1b31f992024e710aedc1cbe81e562d9aea1462674c825f43b0"
     else
-      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.2.2/commitward-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7a559c703c18334c63ea43c3971ca101bb2960c5c3dda76d5cb64d1bff3cb47b"
+      url "https://github.com/Barnett-Studios/commitward/releases/download/v0.3.0/commitward-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "aa6677d29a1148c2e5275e134b096de1685578abb3926fc135b67f8dd92050a9"
     end
   end
 
