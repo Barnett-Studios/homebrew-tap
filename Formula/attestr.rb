@@ -1,25 +1,25 @@
 class Attestr < Formula
   desc "Promise-Theory verification: assess a turn's output against declared promises"
   homepage "https://github.com/Barnett-Studios/attestr"
-  version "0.6.0"
+  version "0.6.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.0/attestr-aarch64-apple-darwin.tar.gz"
-      sha256 "a470d34614b8cc5ab7c7b2c398765ca5a117740163689a928fff1c64a494eacc"
+      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.1/attestr-aarch64-apple-darwin.tar.gz"
+      sha256 "7cecdad3efc655a0f12765f0109cdd00a368c77d4931d2e14bfbb37a778ecab9"
     else
-      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.0/attestr-x86_64-apple-darwin.tar.gz"
-      sha256 "59aa2df2f6b6888a5d1d6d682dfd2d51ee4619f782138ed0f5ac816fbd406497"
+      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.1/attestr-x86_64-apple-darwin.tar.gz"
+      sha256 "efdcb1fa33ceb26d6638970ca06853ccbba0573f70bd12132b5cf9d5802cd272"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.0/attestr-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fedb1cc43d9f4ee4730276289412a3d73a040a02b717a940b45f5176ec0b2b87"
+      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.1/attestr-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6dcfba26e023161621c235796c08ff77f4f3c16a2174bdb7a3708093d65fa266"
     else
-      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.0/attestr-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "95992aaadb83fd3aa50a35fcd8184e42bcdfac038b2f02eaa2618d4a458db7d2"
+      url "https://github.com/Barnett-Studios/attestr/releases/download/v0.6.1/attestr-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4085dbb21ab72a0837d3fcdc8afc2643bd273d1788ccd5f481aedf5cddda0b63"
     end
   end
 
