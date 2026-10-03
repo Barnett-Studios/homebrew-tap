@@ -1,25 +1,25 @@
 class Cascadr < Formula
   desc "Cost-ordered fail-open LLM provider cascade"
   homepage "https://github.com/Barnett-Studios/cascadr"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.1/cascadr-aarch64-apple-darwin.tar.gz"
-      sha256 "5705558225ebcaf84a868cfe882725ae985abf9b3c3044b479cc5fa3a1158ad0"
+      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.2/cascadr-aarch64-apple-darwin.tar.gz"
+      sha256 "8ce777818b7e640fc611eb427b8f0dcd023a6d10df75b15be4ce14754b4d6a63"
     else
-      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.1/cascadr-x86_64-apple-darwin.tar.gz"
-      sha256 "128c72ddbc5370d83033df18ebfe7ed4501c7ac17d638eb86c2071f70da0eb95"
+      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.2/cascadr-x86_64-apple-darwin.tar.gz"
+      sha256 "3a5ef80bc7c4a97381da60381ed5866584bf24abfc78ab52f158c8f650f6ce9f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.1/cascadr-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fe9f105df1fdd67bc1f551829f11e32d6a71f20eb0ca2db2c957b54279416459"
+      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.2/cascadr-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "30a3c4b89b299a01cf0a8c9811c89db469630126a10d0a9364cc57701f6012ab"
     else
-      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.1/cascadr-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "986cbf26e5a6ecedf29ab0c7e282f44ca28ce718669a97705bf4e1f9e82bcb03"
+      url "https://github.com/Barnett-Studios/cascadr/releases/download/v0.3.2/cascadr-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "891920a5dd216040acd633073a409695864890f5f92fbc011f7e1a2ecf7f9da3"
     end
   end
 
